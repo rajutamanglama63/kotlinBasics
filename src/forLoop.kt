@@ -15,9 +15,12 @@ fun main () {
 //        println(i)
 //    }
 
-    val number = 4
+    val number = 7
 
     for(i in 1..10) {
-        println(number.toString() + " x " + i + " = " + (number * i))
+//        println(number.toString() + " x " + i + " = " + (number * i))
+
+//        string templating
+        println("$number x $i = ${number * i}")
     }
 }
